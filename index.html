@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ludo Game</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      td {
+        border: 2px solid black;
+        padding: 20px;
+      }
+  
+     .box {
+      width: 70% ;
+      height: 200px;
+      margin-left: 60px;
+      border: 2px solid black;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .circle {
+      position: absolute;
+      width: 40px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: white;
+    }
+    .top-left {
+      top: 50px;
+      left: 50px;
+    }
+    .top-right {
+      top: 50px;
+      right: 50px;
+    }
+    .bottom-left {
+      bottom: 50px;
+      left: 50px;
+    }
+    .bottom-right {
+      bottom: 50px;
+      right: 50px;
+    }
+
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center;">Ludo Game </h1>
+    
+    <table>
+      <tr>
+        <td colspan="6" rowspan="6" style="background-color: red;" >
+          <div class="box" >
+            <div class="circle top-left"></div>
+            <div class="circle top-right"></div>
+            <div class="circle bottom-left"></div>
+            <div class="circle bottom-right"></div>
+          </div>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td colspan="6" rowspan="6" style="background-color: green;">
+          <div class="box">
+            <div class="circle top-left"></div>
+            <div class="circle top-right"></div>
+            <div class="circle bottom-left"></div>
+            <div class="circle bottom-right"></div>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td style="background-color: green;"></td>
+        <td style="background-color: green;"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td style="background-color: green;"></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td style="background-color: green;"></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td style="background-color: green;"></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td style="background-color: green;"></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td style="background-color: red;"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td colspan="3" rowspan="3" style="text-align: center;">THE END</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td style="background-color:red"></td>
+        <td style="background-color: red;"></td>
+        <td style="background-color: red;"></td>
+        <td style="background-color: red;"></td>
+        <td style="background-color: red;"></td>
+        <td style="background-color: blue;"></td></td>
+        <td style="background-color: blue;"></td></td>
+        <td style="background-color: blue;"></td></td>
+        <td style="background-color: blue;"></td>
+        <td style="background-color: blue;"></td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td ></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td ></td>
+        <td></td>
+        <td style="background-color: blue;"></td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="6" rowspan="6" style="background-color: yellow;">
+          <div class="box">
+            <div class="circle top-left"></div>
+            <div class="circle top-right"></div>
+            <div class="circle bottom-left"></div>
+            <div class="circle bottom-right"></div>
+          </div>
+        </td>
+        <td></td>
+        <td style="background-color: yellow;"></td>
+        <td></td>
+        <td colspan="6" rowspan="6" style="background-color: blue;">
+          <div class="box">
+            <div class="circle top-left"></div>
+            <div class="circle top-right"></div>
+            <div class="circle bottom-left"></div>
+            <div class="circle bottom-right"></div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td ></td>
+        <td style="background-color: yellow;"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td ></td>
+        <td style="background-color: yellow;"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td style="background-color: yellow;"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td style="background-color: yellow;"></td>
+        <td style="background-color: yellow;"></td>
+        <td ></td>
+      </tr>
+      <tr>
+        <td ></td>
+        <td ></td>
+        <td ></td>
+      </tr>
+    </table>
+  </body>
+</html>
